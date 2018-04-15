@@ -1,6 +1,6 @@
 {
   "name": "savethedate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Datepicker primitives for extensible React components",
   "main": "index.js",
   "repository": "https://github.com/frontsideair/savethedate",
