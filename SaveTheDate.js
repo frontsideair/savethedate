@@ -132,8 +132,8 @@ class SaveTheDate extends Component<Props, State> {
       selectedDate: editing && editing.calendarValue,
       onSelect: this.onSelect,
       viewportDate: editing && editing.viewportDate,
-      onPrevMonth: this.handleIncMonth,
-      onNextMonth: this.handleDecMonth,
+      onPrevMonth: this.handleDecMonth,
+      onNextMonth: this.handleIncMonth,
     });
   }
 }
