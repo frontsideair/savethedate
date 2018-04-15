@@ -1,12 +1,27 @@
 {
   "name": "savethedate",
   "version": "0.0.2",
-  "description": "Datepicker primitives for extensible React components",
-  "main": "index.js",
+  "description": "Primitives for extensible React datepicker components",
+  "main": "lib/index.js",
   "repository": "https://github.com/frontsideair/savethedate",
   "author": "Fatih Altinok",
   "license": "MIT",
+  "homepage": "https://github.com/frontsideair/savethedate",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
   "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server",
+    "flow": "flow",
     "lint": "eslint *.js"
   },
   "dependencies": {
@@ -14,15 +29,20 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
-    "eslint": "^4.1.1",
-    "eslint-plugin-flowtype": "^2.34.1",
-    "eslint-plugin-import": "^2.6.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.46.2",
+    "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-react": "^7.7.0",
     "flow-bin": "^0.69.0",
+    "nwb": "0.21.x",
     "prettier": "^1.12.0",
-    "react": "^16.3.1"
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
   },
   "peerDependencies": {
-    "react": "^16.3.1"
-  }
+    "react": "16.x"
+  },
+  "keywords": [
+    "react-component", "react", "component", "datepicker"
+  ]
 }
