@@ -5,9 +5,6 @@ import { format, addMonths, subMonths, startOfMonth } from "date-fns";
 
 import { parseDate, withinRange } from "./utils";
 
-// accessibility
-// locale
-
 type Props = {
   format: string,
   value: Date,
