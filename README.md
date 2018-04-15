@@ -25,7 +25,7 @@ styling solution etc.
 - [ ] i18n
 
 [build-badge]: https://img.shields.io/travis/frontsidedair/savethedate/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[build]: https://travis-ci.org/frontsideair/savethedate
 [npm-badge]: https://img.shields.io/npm/v/savethedate.png?style=flat-square
 [npm]: https://www.npmjs.org/package/savethedate
 [coveralls-badge]: https://img.shields.io/coveralls/frontsideair/savethedate/master.png?style=flat-square
