@@ -1,7 +1,10 @@
 // @flow
 
 import { Component, type Node } from "react";
-import { format, addMonths, subMonths, startOfMonth } from "date-fns";
+import format from "date-fns/format";
+import addMonths from "date-fns/add_months";
+import subMonths from "date-fns/sub_months";
+import startOfMonth from "date-fns/start_of_month";
 
 import { parseDate, withinRange } from "./utils";
 
