@@ -23,6 +23,11 @@ styling solution etc.
 
 - [ ] Accessibility (look at the excellent [react-dates][react-dates] library by Airbnb)
 - [ ] i18n
+- [ ] Write API documentation
+- [x] Write Reactstrap example
+- [ ] Write Semantic UI example
+- [ ] Publish examples to npm so they can be used/integrated
+- [ ] Tests!
 
 [build-badge]: https://img.shields.io/travis/frontsidedair/savethedate/master.png?style=flat-square
 [build]: https://travis-ci.org/frontsideair/savethedate
