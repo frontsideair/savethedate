@@ -5,7 +5,9 @@
 
 All the primitives to build your own datepicker component.
 
-[Demo.][demo]
+## Demos
+- [Reactstrap][reactstrap-demo] (Bootstrap)
+- [Material-UI][mui-demo] (Material Design)
 
 ## Why?
 
@@ -35,6 +37,7 @@ styling solution etc.
 [npm]: https://www.npmjs.org/package/savethedate
 [coveralls-badge]: https://img.shields.io/coveralls/frontsideair/savethedate/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/frontsideair/savethedate
-[demo]: https://codesandbox.io/s/ol3w6018y
+[reactstrap-demo]: https://codesandbox.io/s/ol3w6018y
+[mui-demo]: https://codesandbox.io/s/z26412jxym
 [render-prop]: https://reactjs.org/docs/render-props.html
 [react-dates]: https://github.com/airbnb/react-dates
