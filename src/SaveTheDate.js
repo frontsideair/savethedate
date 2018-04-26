@@ -24,6 +24,7 @@ type Props = {
     isOpen: boolean,
     open: () => void,
     close: () => void,
+    cancel: () => void,
     selectedDate: Date | null,
     onSelect: Date => void,
     viewportDate: Date | null,
@@ -71,6 +72,10 @@ class SaveTheDate extends Component<Props, State> {
       const { calendarValue } = this.state.editing;
       this.setState({ editing: null }, () => this.onChange(calendarValue));
     }
+  };
+
+  cancel = () => {
+    this.setState({ editing: null });
   };
 
   handleInput = (e: SyntheticInputEvent<*>) => {
@@ -129,6 +134,7 @@ class SaveTheDate extends Component<Props, State> {
       isOpen: Boolean(editing),
       open: this.open,
       close: this.close,
+      cancel: this.cancel,
       selectedDate: editing && editing.calendarValue,
       onSelect: this.onSelect,
       viewportDate: editing && editing.viewportDate,
